@@ -9,13 +9,17 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     button{
-        background-color: none;
+        background-color: transparent;
         border: none;
         outline: none;
     }
 
     html, body, #root {
         height: 100vh;
+    }
+
+    body, input-security, textarea, button{
+        font-family: 'Poppins', sans-serif;
     }
 
     body{
@@ -25,6 +29,10 @@ export const GlobalStyle = createGlobalStyle`
     a{
         text-decoration: none;
         outline: none;
+    }
+
+    ul{
+        list-style: none;
     }
      
 `

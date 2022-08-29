@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
-function Main() {
+import { Frontend } from '../templates/frontend'
+
+export function Main() {
   return (
-    <h1>Hello world</h1>
+    <Frontend>Template</Frontend>
   )
 }
-
-export default Main

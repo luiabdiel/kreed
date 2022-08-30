@@ -50,7 +50,7 @@ export const CardActivity = styled.div`
         border-radius: 50px;
 
         &.circle-1{
-            left: 105px;
+            left: 95px;
             top: -20px;
 
             background: rgba(255, 255, 255, 0.3);
@@ -60,12 +60,12 @@ export const CardActivity = styled.div`
             background:  rgba(255, 255, 255, 0.2);
             transform: rotate(45deg);
 
-            left: 80px;
-            bottom: -50px;
+            left: 70px;
+            bottom: -55px;
         }
 
         &.circle-3{
-            border: 1px solid rgba(255, 255, 255, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             transform: rotate(-72.7deg);
 
             left: 37px;

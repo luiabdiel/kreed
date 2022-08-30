@@ -4,6 +4,7 @@ import { Frontend } from '../templates/frontend'
 import HeroImg from "../assets/hero.svg"
 
 import * as S from "./styles"
+import { CardActivity } from '../molecules/CardActivity'
 
 export function Main() {
   return (
@@ -15,9 +16,11 @@ export function Main() {
           <ButtonContact/>
         </div>
 
-        <div>
+        <S.ContainerImage>
+          <CardActivity/>
+
           <img src={HeroImg} alt="Uma mulher, sentada, fazendo uma pesquisa no tablet" />
-        </div>
+        </S.ContainerImage>
       </S.Container>
     </Frontend>
   )

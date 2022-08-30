@@ -22,3 +22,9 @@ export const Container = styled.div`
         padding-right: 105px;
     }
 `
+
+export const ContainerImage = styled.div`
+    text-align: right;
+
+    position: relative;
+`

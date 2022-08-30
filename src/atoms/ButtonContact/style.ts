@@ -23,6 +23,6 @@ export const ButtonContact = styled.button`
     &:hover{
         color:  #1E255E;
         background-color: transparent;
-        border: 4px solid #1E255E;
+        border: 3px solid #1E255E;
     }
 `

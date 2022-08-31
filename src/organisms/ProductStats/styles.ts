@@ -4,4 +4,5 @@ export const ProductStats = styled.div`
     text-align: right;
 
     position: relative;
+    width: 50%;
 `

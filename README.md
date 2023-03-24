@@ -8,7 +8,7 @@
     Kreed - Agência Digital de Design
 </h1>
 
-![Design preview from Kreed](./src/assets/template.png)
+![Design preview from Kreed](./src/assets/kreed.png)
 
 <p align="center">Kreed for study purposes. <a href="https://rococo-valkyrie-406c97.netlify.app/">Deploy</a></p>
 
